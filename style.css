@@ -5,7 +5,8 @@
 }
 
 header{
-    background-color: aquamarine;
+    background-color: rgba(37,94,233,255);
+    color: white;
     height: 4rem;
     padding: 1rem;
     display: flex;
@@ -14,46 +15,65 @@ header{
 }
 
 .nav1{
-    background-color: beige;
+    background-color: rgba(37,94,233,255);
     padding-top: 0.3rem;
-    height: 2rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;
     width: 20%;
-    border: 2px dashed black;
 }
 
 .nav2 {
-    background-color: beige;
+    background-color: rgba(37,94,233,255);
     padding-top: 0.3rem;
-    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
     width: 40%;
-    border: 2px dashed black;
     text-align: center;
     
 }
 
 .nav3 {
-    background-color: beige;
+    background-color:rgba(37,94,233,255);
     padding-top: 0.3rem;
-    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: ;
+    height: 3rem;
     width: 20%;
-    border: 2px dashed black;
-    text-align: right;
 }
 
 
 .container1 {
-    background-color: blue;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-position: center;
     height: 20rem;
     padding-top: 2rem;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .pink{
-    background-color: pink;
-    height: 16rem;
-    width: 50%;
-    border: 2px dashed black;  
+    background-color: rgba(255, 192, 203, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 10rem;
+    max-width: 40rem; 
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+    width: 19rem;
 }
 
 .container2 {
@@ -68,14 +88,12 @@ header{
     background-color: rgb(0, 149, 255);
     height: 16rem;
     width: 50%;
-    border: 2px dashed black;
 }
 
 .pinkbox {
     background-color: pink;
     height: 16rem;
     width: 20%;
-    border: 2px dashed black;
 }
 
 .container3 {
@@ -99,7 +117,6 @@ header{
     background-color: green;
     height: 36rem;
     width: 70%;
-    border: 2px dashed black;
 }
 
 .container4 {
@@ -114,7 +131,6 @@ header{
     background-color: brown;
     height: 16rem;
     width: 30%;
-    border: 2px dashed black;
 }
 
 .insidebox2 {
@@ -143,7 +159,9 @@ footer {
 }
 
 button {
-    background-color: pink;  
+    background-color: pink; 
+    padding: 3px; 
+    border-radius: 20px;
 }
 
 
