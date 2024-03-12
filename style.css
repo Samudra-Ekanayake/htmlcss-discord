@@ -131,7 +131,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    margin-bottom: 30rem;
+    margin-bottom: 10rem;
 }
 
 .blu2 {
@@ -158,45 +158,94 @@ header{
     margin-bottom: 2rem;
 }
 
+.blu3 {
+    background-image: url(img/item3.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 28rem;
+    min-width: 45rem;
+}
+
+.rosa3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 24rem;
+    min-width: 18rem;
+}
+
+.rosa3 h1 {
+    margin-bottom: 2rem;
+}
+
 
 
 .bigcontainer {
-    background-color: gray;
-    height: 40rem;
+    background-color: rgb(128, 128, 128, 0.2);
+    min-height: 40rem;
+    min-width: 50rem;
     padding-top: 2rem;
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+h2 {
+    margin-top: 5rem;
 }
 
 .bigbox {
-    background-color: green;
-    height: 36rem;
-    width: 70%;
+    background-image: url(img/item4-big.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 36rem;
+    min-width: 63rem;
+}
+
+.button2 {
+    width: 10rem;
+    height: auto;  
+}
+
+.macbottone {
+    align-items: center;
+    margin: 2rem;
 }
 
 .container4 {
-    background-color: black;
+    background-color: rgb(0, 27, 23);
     display: flex;
     justify-content:center;
-    height: 20rem;
+    min-height: 20rem;
     padding-top: 2rem;
 }
 
 .insidebox1 {
-    background-color: brown;
-    height: 16rem;
-    width: 30%;
+    background-color: rgb(0, 27, 23);
+    color: white;
+    min-height: 16rem;
+    min-width: 30rem;
 }
 
 .insidebox2 {
-    background-color: rgb(0, 128, 124);
-    height: 16rem;
-    width: 10%;
-    border: 2px dashed white;
+    background-color: rgb(0, 27, 23);
+    color: white;
+    min-height: 16rem;
+    min-width: 10rem;
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(0, 27, 23);
+    color: white;
     height: 4rem;
     display: flex;
     justify-content:center;
@@ -204,7 +253,8 @@ footer {
 }
 
 .footerbox {
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(0, 27, 23);
+    color: white;
     height: 3rem;
     width: 70%;
     position: relative;
@@ -214,7 +264,8 @@ footer {
 }
 
 button {
-    background-color: pink; 
+    background-color: rgb(128, 91, 201); 
+    color: white;
     padding: 3px; 
     border-radius: 20px;
 }
